@@ -1,0 +1,53 @@
+/* ***MENU BAR*** */
+
+.bar{
+    margin-right: 40px;
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+}
+
+.bar li{
+    display: inline-block;
+}
+
+.bar li a{
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    padding: 16px 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    transition: 0.4s;
+    border-bottom: solid;
+}
+
+.bar li a:hover{
+    background: #c1cad4;
+    color: black;
+    border-radius: 5px;
+    border-bottom: solid #000;
+}
+
+/* ***MOTTO*** */
+
+.motto{
+    position: absolute;
+    text-align: left;
+    margin: 10px 20px;
+
+}
+
+.motto img{
+    width: 100px;
+    
+}
+
+.motto h1{
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
